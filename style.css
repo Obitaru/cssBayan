@@ -166,11 +166,11 @@ h1 {
 }
 
 .memes_content1 {
-    background-image: url(assets/mem2.jpg);
+    background-image: url(assets/mem1.gif);
 }
 
 .memes_content2 {
-    background-image: url(assets/mem1.gif);
+    background-image: url(assets/mem2.jpg);
 }
 
 .memes_content3 {
@@ -238,8 +238,6 @@ h1 {
         background-repeat: no-repeat;
     }
 
-
-
     .memes:hover>.memes_content {
         cursor: none;
         display: flex;
@@ -253,8 +251,6 @@ h1 {
     .memes_content:hover {
         scale: 1;
     }
-
-    .memes_input:hover~.memes_content {}
 
     .memes_input:checked~.memes_content {
         display: flex;
@@ -347,7 +343,6 @@ h1 {
         scale: 1;
     }
 
-    .memes_input:hover~.memes_content {}
 
     .memes_input:checked~.memes_content {
         display: flex;
