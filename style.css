@@ -230,7 +230,7 @@ h1 {
         transition: .3s ease all;
         text-align: center;
         align-items: center;
-        color: blue;
+        color: black;
     }
 
     .icon {
@@ -258,6 +258,11 @@ h1 {
         scale: 1;
     }
 
+    .memes:active>.memes_content {
+        opacity: 1;
+    }
+
+
     .memes_input:checked~.memes_content {
         display: flex;
         width: 100%;
@@ -279,9 +284,7 @@ h1 {
 
     }
 
-    .memes:active>.memes_content {
-        opacity: 0.3;
-    }
+
 }
 
 
@@ -319,7 +322,7 @@ h1 {
         transition: .3s ease all;
         text-align: center;
         align-items: center;
-        color: blue;
+        color: black;
     }
 
     .icon {
@@ -372,6 +375,6 @@ h1 {
     }
 
     .memes:active>.memes_content {
-        opacity: 0.3;
+        opacity: 1;
     }
 }
