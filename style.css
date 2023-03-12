@@ -264,7 +264,7 @@ h1 {
         padding-top: 0;
         height: 10em;
         transition: 1s all ease;
-        margin: 0 auto;
+        margin: 0.5em auto;
     }
 
     .memes_content {
@@ -272,8 +272,8 @@ h1 {
         background-repeat: no-repeat;
         background-position: center;
         transition: 1s all ease;
-        padding-top: 2em;
-        padding-bottom: 1em;
+        padding-top: 0;
+        padding-bottom: 0;
         max-width: 90%;
         margin: 0 auto;
 
@@ -364,8 +364,8 @@ h1 {
         background-repeat: no-repeat;
         background-position: center;
         transition: 1s all ease;
-        padding-top: 2em;
-        padding-bottom: 1em;
+        padding-top: 0;
+        padding-bottom: 0;
         max-width: 100%;
         margin: 0 auto;
 
