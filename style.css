@@ -96,10 +96,12 @@ h1 {
     cursor: pointer;
     display: flex;
     width: 100%;
-    padding-top: 3.125em;
     height: 25em;
     opacity: 1;
     transition: 1s all ease;
+    margin: 2em auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 
@@ -135,6 +137,9 @@ h1 {
     padding-top: 3.125em;
     height: 25em;
     transition: 1s all ease;
+    margin: 3em auto;
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 
 .memes_input:checked~.memes_content {
@@ -143,6 +148,7 @@ h1 {
     padding-top: 3.125em;
     height: 25em;
     transition: 1s all ease;
+    margin: 3em auto;
 }
 
 .memes_content {
@@ -151,11 +157,11 @@ h1 {
     height: 0;
     width: 0;
     transition: 1s all ease;
-    padding-top: 1.875em;
-    padding-bottom: 1.875em;
+    padding-top: 0;
+    padding-bottom: 0;
     max-height: auto;
     max-width: 40%;
-    margin: 1.875em auto;
+    margin: 0 auto;
 
 }
 
